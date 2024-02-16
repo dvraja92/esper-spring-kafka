@@ -3,4 +3,4 @@ module sample;
 @Name('sampleQuery')
 @Description('Sample query, reading from kafka an writing result to it')
 
-@KafkaOutputDefault select toLower(*) as word, getLengthOfString(*) as len from String
+@KafkaOutputDefault select * FROM PersonEvent WHERE age > 18;

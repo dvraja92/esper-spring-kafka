@@ -3,11 +3,6 @@
                      xmlns="http://www.espertech.com/schema/esper"
                      xsi:schemaLocation="http://esper.espertech.com/schema/esper/esper-configuration-8-0.xsd">
     <compiler>
-        <plugin-singlerow-function name="getLengthOfString"
-                                   function-class="com.decipherzone.esper.filter.WordFilter" function-method="getLengthOfString"
-                                   filter-optimizable="disabled" />
-        <plugin-singlerow-function name="toLower"
-                                   function-class="com.decipherzone.esper.filter.WordFilter" function-method="toLower"
-                                   filter-optimizable="disabled" />
+
     </compiler>
 </esper-configuration>
